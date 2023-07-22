@@ -17,6 +17,8 @@ header {
 header a {
   display: inline-block;
   padding: 10px 20px;
+
+  width: 150px;
 }
 
 header a:hover {
@@ -26,6 +28,7 @@ header a:hover {
 header p,
 header i {
   color: #ffffff;
+  margin: 3px;
 }
 
 header div {
