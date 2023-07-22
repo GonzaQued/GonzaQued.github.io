@@ -8,3 +8,98 @@
   
   text-decoration: none;
 }
+
+header {
+  background-color: #6D14C8;
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+header a:hover {
+  background-color: #AA81D4;
+} 
+
+header p,
+header i {
+  color: #ffffff;
+}
+
+header div {
+  display: inline;
+  margin: 0px 15px;
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.container img {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.p-info div {
+  width: 300px;
+  margin: 10px auto;
+  text-align:left;
+}
+
+.p-info div h1 {
+  font-size: 35px;
+}
+
+.p-info div h2 {
+  color: #B2BED1;
+  font-size: 15px;
+}
+
+.p-info div p {
+  margin: 10px 0px;
+}
+
+.p-info div p strong {
+  color: #723DD0;
+}
+
+.g-info {
+  margin-top: 35px;
+}
+
+.g-info h2 {
+  margin-bottom: 5px;
+}
+
+.g-info div .line {
+  width: 50px;
+  height: 5px;
+  background-color:#6D14C8;
+  border-radius: 5px;
+  margin: 5px 0px;
+}
+
+.g-info div {
+  width: 350px;
+  margin: auto;
+  text-align: justify;
+}
+
+.g-info div section {
+  margin-top: 20px;
+}
+
+.g-info div section ul {
+  list-style-type: circle;
+  color: #723DD0;
+}
+
+.g-info div section ul li strong {
+  color: #808080;
+  font-weight: 200;
+}
+
