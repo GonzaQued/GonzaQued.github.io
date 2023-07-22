@@ -36,7 +36,6 @@ header div {
 .container {
   margin-top: 30px;
   text-align: center;
-  padding: 20px;
 }
 
 .container img {
@@ -69,6 +68,8 @@ header div {
 
 .g-info {
   margin-top: 35px;
+  background-color: #F8F9FB;
+  padding: 12px;
 }
 
 .g-info h2 {
