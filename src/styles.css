@@ -54,11 +54,14 @@ header div {
 
 .p-info div h1 {
   font-size: 35px;
+
 }
 
 .p-info div h2 {
   color: #B2BED1;
   font-size: 15px;
+
+  margin-bottom: 30px;
 }
 
 .p-info div p {
@@ -118,4 +121,36 @@ header div {
   }
 }
 
+@media (min-width: 810px) {
 
+  header a {
+    text-align: center;
+    width: 250px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 40% auto;
+
+    margin: 0px;
+  }
+
+  .p-info {
+    margin-top: 80px;
+  }
+
+  .g-info {
+    margin: 0px;
+    padding: 60px;
+
+    height: 100vh;
+  }
+
+  .g-info div {
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+
+    margin-right: 100px;
+  }
+}
