@@ -54,7 +54,8 @@ header div {
 
 .p-info div h1 {
   font-size: 35px;
-
+  
+  margin-top: 15px;
 }
 
 .p-info div h2 {
@@ -70,6 +71,29 @@ header div {
 
 .p-info div p strong {
   color: #723DD0;
+}
+
+.social-net  {
+  display: inline;
+}
+
+.social-net a {
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.social-net a i {
+  font-size: 25px;
+}
+
+.social-net a:nth-child(1) {
+  color:#6D14C8 ;
+}
+.social-net a:nth-child(2) {
+  color:#FE459F ;
+}
+.social-net a:nth-child(3) {
+  color:#149EF8 ;
 }
 
 .g-info {
