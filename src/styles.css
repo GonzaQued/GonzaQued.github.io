@@ -105,6 +105,10 @@ header div {
   color: #723DD0;
 }
 
+.g-info div section ul li {
+  margin: 5px 0px;
+}
+
 .g-info div section ul li strong {
   color: #808080;
   font-weight: 200;
